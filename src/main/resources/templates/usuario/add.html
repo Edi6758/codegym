@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Adicionar usuário</title>
+    <link rel="icon" href="/img/icon2.png">
+
+    <!--CSS-->
+    <link rel="stylesheet" th:href="@{/bootstrap-4.5.2/css/bootstrap.min.css}">
+    <link rel="stylesheet" th:href="@{/fontawesome-5.14.0/css/all.min.css}">
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+
+</head>
+
+<body class="body-cadastro-usuario ">
+    <div class=" cadastro-usuario-container-logo row d-flex justify-content-center">
+        <a class="navbar-brand firsttitle " th:href="@{/} ">
+            <h1 class="cadastro-usuario-logo ">co.gym</h1>
+        </a>
+    </div>
+
+    <div class=" row d-flex justify-content-center container-total-add-usuario">
+        <div class="cds-container-base">
+            <div class="container cds-container-funcionario ">
+                <div class="cds-form-titulo ">
+                    <h4 class="cds-titulo ">cadastro</h4>
+                </div>
+
+                <form th:action="@{/usuario/save}" th:object="${usuario}" method="POST">
+                    <div class="cds-all">
+                        <div class="form-group cds-codigo">
+                            <label>Código</label>
+                            <input class="form-control" type="number" th:field="*{id}" readonly>
+                        </div>
+
+                        <!-- erro login -->
+                        <div th:if="${erroLogin}" class="alert alert-danger">
+                            <button type="button" class="close" data-dismiss="alert">
+                                <i class="far fa-times-circle"></i>
+                            </button>
+                            <h4>Atenção!</h4>
+                            <span>Erro ao salvar, login já existente!</span>
+                        </div>
+
+                        <!-- erro cpf -->
+                        <div th:if="${erroCpf}" class="alert alert-danger">
+                            <button type="button" class="close" data-dismiss="alert">
+                                <i class="far fa-times-circle"></i>
+                            </button>
+                            <h4>Atenção!</h4>
+                            <span>CPF já existente, confira as credenciais ou atualize seu cadastro!</span>
+                        </div>
+
+                        <!-- erro telefone -->
+                        <div th:if="${erroTelefone}" class="alert alert-danger">
+                            <button type="button" class="close" data-dismiss="alert">
+                                <i class="far fa-times-circle"></i>
+                            </button>
+                            <h4>Atenção!</h4>
+                            <span>Telefone já existente, confira as credenciais ou atualize seu cadastro!</span>
+                        </div>
+
+                        <!-- erro email -->
+                        <div th:if="${erroEmail}" class="alert alert-danger">
+                            <button type="button" class="close" data-dismiss="alert">
+                                <i class="far fa-times-circle"></i>
+                            </button>
+                            <h4>Atenção!</h4>
+                            <span>E-mail já existente, confira as credenciais ou atualize seu cadastro!</span>
+                        </div>
+
+
+                        <div class="cds-container-esquerda">
+                            <div class="form-group">
+                                <label>Nome e Sobrenome</label>
+                                <input class="form-control cds-inputs" type="text" th:field="*{nome}" placeholder="Digite seu nome completo." minlength="8" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label>CPF</label>
+                                <input class="form-control cds-inputs" type="text" th:field="*{cpf}" placeholder="xxx-xxx-xxx-xx" onkeypress="$(this).mask('000.000.000-00')" minlength="11" maxlength="11" required>
+                            </div>
+
+                            <div class=" form-group ">
+                                <label>Telefone</label>
+                                <input class="form-control cds-inputs " type="text" th:field="*{telefone} " placeholder="(xx)xxxxx-xxxx" onkeypress="$(this).mask('(00) 00000-0000')" minlength="11" maxlength="11" required>
+                            </div>
+                        </div>
+
+                        <div class="cds-container-meio ">
+                            <div class="form-group ">
+                                <label>E-mail</label>
+                                <input class="form-control cds-inputs " type="email" th:field="*{email} " placeholder="Digite seu e-mail. " minlength="10" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Login</label>
+                                <input class="form-control cds-inputs" type="text" th:field="*{login}" placeholder="Digite seu login. " minlength="8" maxlength="30" required>
+                            </div>
+
+                            <div class="form-group ">
+                                <label>Senha</label>
+                                <input type="password" class="form-control cds-inputs " th:field="*{senha} " placeholder="No mínimo 8 letra. " minlength="8" maxlength="30" required>
+                            </div>
+                        </div>
+
+                        <div class="cds-container-direita ">
+                            <div class="form-tabela cds-cd-dentro cds-cd-dentro-segunda ">
+                                <small class="form-text text-muted cds-cd-dentro-segunda ">Selecione o horário de
+                                    Segunda.</small>
+                                <select th:field="*{horarios} " class="form-control cds-options-horario " multiple="multiple " size="10 ">
+                                    <option th:each="h : ${horarioSegunda} " th:value="${h.id} " th:text="${h.hora} ">
+                                    </option>
+                                </select>
+
+                                <small class="form-text text-muted ">Selecione o horário de Terça.</small>
+                                <select th:field="*{horarios} " class="form-control cds-options-horario " multiple="multiple " size="10 ">
+                                    <option th:each="h : ${horarioTerca} " th:value="${h.id} " th:text="${h.hora} ">
+                                    </option>
+                                </select>
+
+                                <small class="form-text text-muted ">Selecione o horário de Quarta.</small>
+                                <select th:field="*{horarios} " class="form-control cds-options-horario " multiple="multiple " size="10 ">
+                                    <option th:each="h : ${horarioQuarta} " th:value="${h.id} " th:text="${h.hora} ">
+                                    </option>
+                                </select>
+
+                                <small class="form-text text-muted ">Selecione o horário de Quinta.</small>
+                                <select th:field="*{horarios} " class="form-control cds-options-horario " multiple="multiple " size="10 ">
+                                    <option th:each="h : ${horarioQuinta} " th:value="${h.id} " th:text="${h.hora} ">
+                                    </option>
+                                </select>
+
+                                <small class="form-text text-muted ">Selecione o horário de Sexta.</small>
+                                <select th:field="*{horarios} " class="form-control cds-options-horario " multiple="multiple " size="10 ">
+                                    <option th:each="h : ${horarioSexta} " th:value="${h.id} " th:text="${h.hora} ">
+                                    </option>
+                                </select>
+
+                                <small class="form-text text-muted ">Selecione o horário de Sábado.</small>
+                                <select th:field="*{horarios} " class="form-control cds-options-horario " multiple="multiple " size="10 ">
+                                    <option th:each="h : ${horarioSabado} " th:value="${h.id} " th:text="${h.hora} ">
+                                    </option>
+                                </select>
+
+                            </div>
+                        </div>
+
+                        <div class="cds-botoes ">
+                            <div class="form-group ">
+                                <button class="btn btn-secondary btn-width cds-botao-cancelar " type="button " onclick="window.location.href='./list' ">
+                                <i class="fa fa-ban " aria-hidden="true "></i> Cancelar
+                            </button>
+                                <button class="btn btn-success btn-width cds-botao-salvar " type="submit ">
+                                <i class="fa fa-save " aria-hidden="true "></i> Salvar
+                            </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--JAVASCRIPT-->
+
+    <script th:src="@{/js/jquery-3.5.1.min.js} "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js "></script>
+    <script th:src="@{/bootstrap-4.5.2/js/bootstrap.min.js} "></script>
+    <script th:src="@{/js/script.js} "></script>
+
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Login</title>
+    <link rel="icon" href="img/icon2.png">
+
+    <!--CSS-->
+    <link rel="stylesheet" th:href="@{/bootstrap-4.5.2/css/bootstrap.min.css}">
+    <link rel="stylesheet" th:href="@{/fontawesome-5.14.0/css/all.min.css}">
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+
+</head>
+
+<body>
+
+    <!--CORPO-->
+
+    <div class="container-xl cogym-title-tela-login">
+        <a th:href="@{/}" class="cogym-title-tela-login-1">co.<p class="cogym-title-tela-login-2">gym</p></a>
+    </div>
+
+
+
+    <form class="form-container" th:action="@{/login}" method="POST">
+
+        <div class="form-group form-titulo-tela-login">
+            <h4>Usuário</h4>
+        </div>
+
+
+
+        <div class="form-group div-tela-login-usuario">
+            <input name="username" class="form-control input-tela-login-usuario " placeholder="Login" required />
+        </div>
+
+        <div class="form-group div-tela-login-senha">
+            <input name="password" type="password" class="form-control input-tela-login-senha" placeholder="Senha" required />
+        </div>
+
+
+        <!-- erro login -->
+        <div th:if="${param.error}" class="alert alert-danger">
+            <button type="button" class="close" data-dismiss="alert">
+                <i class="far fa-times-circle"></i>
+            </button>
+            <h4>Atenção!</h4>
+            <span>Preencha corretamente o usuario e senha</span>
+        </div>
+
+        <div class="form-group container-lembrar-de-mim">
+            <input type="checkbox" id="remember-me" name="remember-me" />
+            <label class="label-lembrar-tela-login" for="remember-me" Lembrar?>Lembrar de mim?</label>
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn btn-dark btn-tela-login-entrar" onclick="window.location.href='/indexLogado'">
+                Entrar
+            </button>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-dark btn-tela-login-entrar-google" th:href="@{/}">
+                Entrar com Google
+                <i class="fab fa-google"></i>
+            </button>
+        </div>
+
+
+        <div class="redirecionar-cadastro-tela-login">
+            <p class="redirecionar-cadastro-tela-login-1">Não tem cadastro?
+                <a class="redirecionar-cadastro-tela-login-2" th:href="@{/usuario/add}">Cadastre-se!</a></p>
+        </div>
+    </form>
+
+    </div>
+
+
+    <!--JAVASCRIPT-->
+    <script th:src="@{/js/jquery-3.5.1.min.js}"></script>
+    <script th:src="@{/bootstrap-4.5.2/js/bootstrap.min.js}"></script>
+    <script th:src="@{/js/script.js}"></script>
+
+</body>
+
+</html>

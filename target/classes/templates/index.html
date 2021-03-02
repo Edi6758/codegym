@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Início</title>
+    <link rel="icon" href="img/icon2.png">
+
+    <!--CSS-->
+    <link rel="stylesheet" th:href="@{/bootstrap-4.5.2/css/bootstrap.min.css}">
+    <link rel="stylesheet" th:href="@{/fontawesome-5.14.0/css/all.min.css}">
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+
+    <!--FULLPAGE-->
+    <link rel="stylesheet" th:href="@{/fullpage/dist/fullpage.css}">
+    <script src="/fullpage/dist/fullpage.js"></script>
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+
+    <!--CORPO-->
+    <div id="fullpage">
+
+        <div class="section">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand firsttitle" th:href="@{/}">co.gym</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link" th:href="@{/horario/list}">agenda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" th:href="@{/usuario/list}">usuários</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" th:href="@{/quemsomos}">quem somos</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="row d-flex justify-content-center container-total-home">
+                <div class="home-esquerda">
+                    <h1 class="home-h1">co.gym!</h1>
+                    <h2 class="home-h2">Gerencie sua academia hoje mesmo!
+                    </h2>
+                    <div class="linha-home"></div>
+                    <button onclick="window.location.href='/quemsomos'" class="myButtonHome">Contato</button>
+                </div>
+
+                <div class="home-meio">
+                    <img class="home-logo" src="img/girl.png" alt="">
+                </div>
+
+                <div class="home-direita">
+                    <h1 class="home-h1-2">Economize tempo e aumente seu lucro!
+                    </h1>
+                    <img class="home-button" src="img/play.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="section section2">
+            <div class="body2">
+                <div class="home-esquerda-2">
+                    <img src="img/img-home.png" alt="" class="img-home-3">
+                    <img src="img/fundo-1.png" alt="" class="img-home-2">
+                </div>
+                <div class="home-direita-2">
+                    <h1 class="subtitulo-home">gym work</h1>
+                    <div class="home-linha"></div>
+                    <h1 class="home-titulo-2"> O que é co.gym?</h1>
+                    <p class="texto-home">Lorem ipsum lectus ligula curae aptent phasellus ut, nulla porttitor lorem aenean primis sodales, nisl erat laoreet vitae commodo dui. semper mattis et at vel aliquet urna praesent tellus vulputate molestie amet.</p>
+                    <button class="home-button-2">play now!</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="section section3">
+            <div class="body3">
+                <div class="titulo-home-3">
+                    <h1 class="titulo-home-3-2">Por que a co.gym?</h1>
+                </div>
+                <div class="container mt-5">
+                    <div class="row container-containers-home3">
+                        <div class="col-md-4 container-home-3">
+                            <div class="testimonial-1 rounded "><img class="mb-3" src="img/aspas-colorida.png" width="40">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris<br><br></p>
+                                <div class="d-flex flex-row align-items-center"><img class="rounded-circle" src="https://i.imgur.com/sKDeBrg.jpg" width="40">
+                                    <div class="ml-2 about"><span class="d-block name">Giralle Cross</span><span class="place">Operator Trade, Little AR, TX</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 container-home-3">
+                            <div class="testimonial-2 rounded "><img class="mb-3" src="img/aspas-branca.png" width="40">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris<br><br></p>
+                                <div class="d-flex flex-row align-items-center"><img class="rounded-circle" src="https://i.imgur.com/aZ9cakV.jpg" width="40">
+                                    <div class="ml-2 about"><span class="d-block name">Sam Cross</span><span class="place-2">Android Developer, Little AR, TX</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 container-home-3">
+                            <div class="testimonial-1 rounded "><img class="mb-3" src="img/aspas-colorida.png" width="40">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris<br><br></p>
+                                <div class="d-flex flex-row align-items-center"><img class="rounded-circle" src="https://i.imgur.com/LP0U10y.jpg" width="40">
+                                    <div class="ml-2 about"><span class="d-block name">Marry Cross</span><span class="place">Operator Trade, Little AR, CA</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="linha-home-3"></div>
+                            <div class="linha2-home-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    <script>
+        new fullpage('#fullpage', {
+            navigation: true,
+            responsiveWidth: 700,
+            anchors: ['home', 'about-us', 'contact'],
+            parallax: true,
+            onLeave: function(origin, destination, direction) {
+                console.log("Leaving section" + origin.index);
+            },
+        });
+    </script>
+</body>
+
+</html>

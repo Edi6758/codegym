@@ -1,0 +1,1665 @@
+                /*KAUAN*/
+                
+                .template-demo {
+                    height: 250px;
+                }
+                
+                .btn-horario-add-list>a {
+                    display: none;
+                }
+                
+                td {
+                    border-top: none !important;
+                }
+                
+                @media (max-width:991.98px) {
+                    .padding {
+                        padding: 1.5rem
+                    }
+                }
+                
+                @media (max-width:767.98px) {
+                    .padding {
+                        padding: 1rem
+                    }
+                }
+                
+                .padding {
+                    padding: 5rem
+                }
+                
+                .cust-name {
+                    font-size: 18px
+                }
+                
+                .cust-profession {
+                    font-size: 10px
+                }
+                
+                .items {
+                    width: 90%;
+                    margin: 0px auto;
+                    margin-top: 100px
+                }
+                
+                .slick-slide {
+                    margin: 10px
+                }
+                
+                .container-principal {
+                    height: 700px;
+                }
+                
+                .container-login {
+                    width: 30%;
+                    margin-top: 20px;
+                    padding: 10px;
+                    border: 1px solid #161612;
+                    border-radius: 20px;
+                }
+                
+                .div-contato {
+                    background: #1b1b12;
+                }
+                
+                .lbl-titulo {
+                    width: 100%;
+                    color: #b68809;
+                    font-weight: bold;
+                }
+                
+                .lbl-dado {
+                    width: 100%;
+                    color: white;
+                }
+                
+                footer {
+                    text-align: center;
+                    height: 70px;
+                    background-color: #eeedf3;
+                }
+                
+                .lbl-footer {
+                    margin-top: 20px;
+                }
+                
+                .container-funcionarios {
+                    min-height: 700px;
+                    width: 500px;
+                    /*border: 1px solid #1b1b12;*/
+                    border-radius: 10px;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    padding: 10px;
+                }
+                
+                .container-projetos {
+                    min-height: 700px;
+                    width: 90%;
+                    /*border: 1px solid #1b1b12;*/
+                    border-radius: 10px;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    padding: 10px;
+                }
+                
+                .container-projeto {
+                    width: 500px;
+                    border: 1px solid #1b1b12;
+                    border-radius: 10px;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    padding: 10px;
+                }
+                
+                .form-tabela {
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+                
+                .form-novo {
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    padding: 10px;
+                    text-align: right;
+                }
+                
+                .badge-botao {
+                    padding: 8px;
+                }
+                
+                .tabela-controle {
+                    padding: 3px;
+                    width: 10px;
+                }
+                
+                .tabela-controle>a {
+                    color: #1b1b12;
+                }
+                
+                .tabela-controle>a:hover {
+                    color: forestgreen;
+                }
+                
+                .btn-width {
+                    width: 49%;
+                }
+                
+                .btn-voltar-width {
+                    width: 99%;
+                }
+                
+                input {
+                    text-align: center;
+                }
+                
+                select {
+                    text-align-last: center;
+                }
+                
+                .alert {
+                    margin-top: 15px;
+                    text-align: center;
+                }
+                
+                .list-group {
+                    text-align: center;
+                }
+                
+                .cl-dark {
+                    color: white;
+                }
+                
+                .label-lembrar {
+                    width: 100%
+                }
+                
+                .div-login {
+                    width: 100%;
+                    text-align: right;
+                }
+                /* NAVBAR */
+                
+                .navbar {
+                    position: relative !important;
+                    background: #151620 !important;
+                }
+                
+                .navbar-brand {
+                    font-family: Kayak Sans Bold;
+                    background: linear-gradient(to right, #00DCFF 30%, #FFFFFF 40%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    margin-left: 5% !important;
+                }
+                
+                .firsttitle {
+                    font-size: 30px !important;
+                    color: #00DCFF !important;
+                }
+                
+                .secondtitle {
+                    font-size: 30px !important;
+                    color: #FFFFFF !important;
+                }
+                
+                nav div ul li a {
+                    font-size: 20px !important;
+                    color: #FFFFFF !important;
+                    font-family: Kayak Sans Bold;
+                    padding-left: 30px !important;
+                    padding-right: 30px !important;
+                }
+                
+                .login-button {
+                    margin-right: 300px !important;
+                }
+                /*CADASTRO DE USUARIOS*/
+                
+                .body-cadastro-usuario {
+                    width: 100% !important;
+                }
+                
+                .container-total-add-usuario {
+                    margin-top: 2%;
+                    width: 100% !important;
+                }
+                
+                .cadastro-usuario-container-logo {
+                    width: 100%;
+                    height: auto;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 6%;
+                }
+                
+                .cadastro-usuario-logo {
+                    margin-left: -75px;
+                    text-align: center;
+                    font-family: Kayak Sans Bold;
+                    background: linear-gradient(to right, #00DCFF 40%, #FFFFFF 30%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+                
+                .cds-all {
+                    margin-left: 4.5%;
+                    margin-right: 3%;
+                }
+                
+                .cds-codigo {
+                    display: none;
+                }
+                
+                .cds-container-base {
+                    background-color: #1F202A;
+                    width: 60%;
+                    border-radius: 10px;
+                }
+                
+                .cds-container-funcionario {
+                    border-radius: 10px;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+                
+                .cds-options-horario {
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+                    background-color: #272830 !important;
+                    border: #272830;
+                }
+                
+                div div form div label {
+                    color: #FFFFFF;
+                    margin-left: 20px;
+                    font-family: Kayak Sans Bold;
+                }
+                
+                .cds-form-titulo {
+                    background-color: none;
+                    text-align: center;
+                    padding: 10px;
+                    font-family: Kayak Sans Bold;
+                }
+                
+                .cds-titulo {
+                    color: #FFFFFF;
+                    margin-top: 1.5%;
+                }
+                
+                .cds-inputs {
+                    width: 280px;
+                    margin: 20px;
+                    background: #272830;
+                    border: none !important;
+                }
+                
+                .cds-inputs:hover {
+                    width: 280px;
+                    margin: 20px;
+                    background: #272830;
+                    border: none !important;
+                }
+                
+                .cds-container-esquerda {
+                    display: inline-block;
+                    margin-left: 50px;
+                }
+                
+                .cds-container-meio {
+                    display: inline-block;
+                }
+                
+                .cds-container-direita {
+                    margin-top: 18px !important;
+                    display: inline-block;
+                    overflow-y: scroll;
+                    height: 300px;
+                    margin: 0px;
+                    padding-left: 0 !important;
+                    padding-right: 0 !important;
+                    padding-bottom: 0 !important;
+                    margin-left: 50px;
+                }
+                
+                .cds-cd-dentro {
+                    margin: 0 !important;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                }
+                
+                .cds-cd-dentro-segunda {
+                    padding-top: 0 !important;
+                    margin-top: 0 !important;
+                }
+                
+                .cds-botoes {
+                    display: inline-block;
+                }
+                
+                .cds-botao-cancelar {
+                    width: 280px;
+                    display: inline-block;
+                    margin: 20px;
+                    font-family: Kayak Sans Bold;
+                    margin-left: 70px;
+                }
+                
+                .cds-botao-salvar {
+                    width: 280px;
+                    display: inline-block;
+                    margin: 20px;
+                    background-color: #04A7C1;
+                    font-family: Kayak Sans Bold;
+                }
+                
+                .cds-botao-salvar:hover {
+                    width: 280px;
+                    display: inline-block;
+                    margin: 20px;
+                    background-color: #025e6d;
+                    border: none;
+                }
+                
+                .text-muted {
+                    color: #FFFFFF !important;
+                    font-family: Kayak Sans Bold;
+                    margin-bottom: 12px;
+                    font-size: 14px;
+                }
+                /* width */
+                
+                 ::-webkit-scrollbar {
+                    width: 14px;
+                }
+                /* Track */
+                
+                 ::-webkit-scrollbar-track {
+                    background: #151620;
+                    border-radius: 3px;
+                }
+                /* Handle */
+                
+                 ::-webkit-scrollbar-thumb {
+                    background: #04A7C1;
+                    border-radius: 3px;
+                }
+                /* Handle on hover */
+                
+                 ::-webkit-scrollbar-thumb:hover {
+                    background: #025e6d;
+                }
+                
+                 ::-webkit-input-placeholder {
+                    color: rgb(121, 121, 121);
+                    font-family: Kayak Sans Regular;
+                    text-align: left;
+                }
+                /*Parte kauan*/
+                
+                body {
+                    background-color: #151620;
+                    color: rgb(255, 255, 255);
+                }
+                /*TELA LOGIN*/
+                /*titulo co.gym e texto usuario*/
+                
+                .cogym-title-tela-login {
+                    margin-top: 7%;
+                    text-align: center;
+                    font-size: 40px;
+                    text-decoration: none;
+                }
+                
+                .cogym-title-tela-login-1 {
+                    color: white;
+                    font-family: Kayak Sans Bold;
+                    text-decoration: none;
+                    display: inline;
+                }
+                
+                .cogym-title-tela-login-1:hover {
+                    color: white;
+                    text-decoration: none;
+                }
+                
+                .cogym-title-tela-login-2 {
+                    font-size: 40px;
+                    color: #1eb8cb;
+                    font-family: Kayak Sans Bold;
+                    display: inline;
+                }
+                
+                .form-titulo-tela-login {
+                    text-align: center;
+                    padding-top: 5px;
+                    font-family: Kayak Sans Bold;
+                }
+                /*botoes de entrar normal, entrar com google, label de lembrar de mim*/
+                
+                .btn-tela-login-entrar {
+                    align-items: center;
+                    background-color: #04a7c0;
+                    width: 90%;
+                    margin-left: 5%;
+                }
+                
+                .btn-tela-login-entrar-google {
+                    align-items: center;
+                    background-color: transparent;
+                    border: solid 1px #04a7c0;
+                    width: 90%;
+                    margin-left: 5%;
+                }
+                
+                .btn-tela-login-entrar:hover {
+                    background-color: #04a7c0;
+                    border-right: transparent;
+                    border-top: transparent;
+                    border-radius: 10px;
+                }
+                
+                .btn-tela-login-entrar-google:hover {
+                    background-color: transparent;
+                    border-radius: 10px;
+                    border: solid 1px #04a7c0;
+                }
+                
+                .label-lembrar {
+                    display: inline !important;
+                    font-size: 15px;
+                }
+                /*container de login,nao possui cadastro*/
+                
+                .form-container {
+                    width: 35%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 3px;
+                    padding: 10px;
+                    background-color: #20202a;
+                    border-radius: 10px;
+                    font-family: Kayak Sans Bold;
+                }
+                
+                .redirecionar-cadastro-tela-login {
+                    text-align: center;
+                    font-size: 15px;
+                }
+                
+                .redirecionar-cadastro-tela-login-2 {
+                    color: #04a7c0;
+                    text-decoration: none;
+                }
+                
+                .redirecionar-cadastro-tela-login-2 {
+                    color: #04a7c0;
+                    text-decoration: none;
+                }
+                
+                .container-lembrar-de-mim {
+                    margin-left: 5%;
+                }
+                /*inputs login e senha e o modal de erro*/
+                
+                .input-tela-login-usuario {
+                    background-color: #282832;
+                    border: transparent;
+                    width: 90%;
+                    margin-left: 5%;
+                }
+                
+                .input-tela-login-senha {
+                    background-color: #282832;
+                    border: transparent;
+                    border-right: transparent;
+                    border-top: transparent;
+                    width: 90%;
+                    margin-left: 5%;
+                }
+                
+                .modal-header {
+                    background-color: #0d9cb3;
+                    color: white;
+                }
+                /*TELA LIST USUARIO*/
+                
+                .cor-texto-modal-tela-list-usuario {
+                    color: black;
+                }
+                
+                .form-tabela-tela-list-usuario {
+                    width: 100%;
+                    align-items: center;
+                }
+                
+                .tela-list-usuario {
+                    margin-top: 30px;
+                    background-color: #20202a;
+                }
+                
+                .tbody-tela-list-usuario {
+                    color: white;
+                    font-family: Kayak Sans Bold;
+                }
+                
+                .form-titulo-tela-list-usuario {
+                    display: inline;
+                }
+                
+                .h4-tela-list-usuario {
+                    width: 100%;
+                    padding-left: 2%;
+                    margin-top: 10px;
+                    font-size: 2rem;
+                    font-family: Kayak Sans Bold;
+                    display: inline;
+                }
+                
+                .a-tela-list-usuario {
+                    display: inline;
+                    padding-left: 70%;
+                }
+                
+                .form-tabela-tela-list-usuario {
+                    background-color: #20202a !important;
+                    font-family: Kayak Sans Regular;
+                }
+                
+                .dropdown-tela-list-usuario {
+                    display: none;
+                    font-family: Kayak Sans Bold;
+                }
+                
+                .campo-login-tela-usuario-list {
+                    display: none;
+                }
+                
+                .campo-vazio-tela-usuario-list {
+                    display: none;
+                }
+                
+                .thead-tela-list-usuario {
+                    background-color: #03859a;
+                    color: white;
+                }
+                
+                .table thead th {
+                    border-top: none;
+                    border-bottom: none;
+                }
+                /*TELA ADD HORÁRIO*/
+                
+                .input-group {}
+                
+                .func-add-titulo {
+                    text-align: center;
+                }
+                
+                .add-hora-codigo {
+                    display: none;
+                }
+                
+                .container-add-hora {
+                    margin-top: 1%;
+                    padding: 2.5%;
+                    padding-left: 5%;
+                    padding-right: 5%;
+                    font-family: Kayak Sans Bold;
+                    width: 50% !important;
+                    background-color: #20202a;
+                    border-radius: 6px;
+                }
+                
+                .form-group-add-hora>input {
+                    background-color: #282832;
+                    border: none;
+                }
+                
+                .form-group-add-hora>select {
+                    background-color: #282832 !important;
+                    border: none !important;
+                }
+                
+                .form-group-add-hora>input:hover {
+                    background-color: #282832;
+                    border: none;
+                    border-radius: 10px;
+                    border: solid 1px #04a7c0;
+                    transition: all 0.3s;
+                }
+                
+                .form-group-add-hora>select:hover {
+                    background-color: #282832 !important;
+                    border: none !important;
+                    border-radius: 10px;
+                    border: solid 1px #04a7c0;
+                    transition: all 0.3s;
+                }
+                
+                .btn-add-hora-cancelar {
+                    width: 40%;
+                    background-color: transparent;
+                    color: white;
+                    border-radius: 7px;
+                    border: solid 2px #069cb4;
+                    margin: 1%;
+                }
+                
+                .btn-add-hora-cancelar:hover {
+                    width: 40%;
+                    background-color: transparent;
+                    color: white;
+                    border-radius: 7px;
+                    border: solid 2px #069cb4;
+                    margin: 1%;
+                }
+                
+                .btn-add-hora-salvar {
+                    width: 40%;
+                    background-color: #04a7c0;
+                    color: white;
+                    border: none;
+                    margin: 1%;
+                }
+                
+                .btn-add-hora-salvar:hover {
+                    width: 40%;
+                    background-color: #04a7c0;
+                    color: white;
+                    border: none;
+                    margin: 1%;
+                }
+                
+                .hora-botoes {
+                    margin-top: 4%;
+                    margin-left: 12.5%;
+                }
+                /*TELA VIEW HORÁRIO*/
+                
+                .form-group-view-hora>input {
+                    background-color: #282832 !important;
+                    border: none;
+                }
+                
+                .btn-view-hora {
+                    background-color: transparent;
+                    border-radius: 7px;
+                    border: solid 2px #069cb4;
+                    color: white;
+                }
+                
+                .btn-view-hora:hover {
+                    background-color: transparent;
+                    border-radius: 7px;
+                    border: solid 2px #069cb4;
+                    color: white;
+                }
+                /*TELA VIEW USUARIO*/
+                
+                .container-view-usu {
+                    padding: 6px;
+                    font-family: Kayak Sans Bold;
+                    width: 70%;
+                    background-color: #20202a;
+                    border-radius: 6px;
+                }
+                
+                .usuario-view-titulo {
+                    text-align: center;
+                }
+                
+                .usuario-view-titulo-h4 {
+                    font-size: 35px !important;
+                }
+                
+                .form-control-usuario-view {
+                    background-color: #282832 !important;
+                    border: none;
+                }
+                
+                .form-group-usuario-view {
+                    background-color: #03859a !important;
+                }
+                
+                .form-group-usuario-view-li {
+                    background-color: #282832;
+                }
+                
+                .form-group-usuario-view-senha {
+                    display: none !important;
+                }
+                
+                .form-group-usuario-view-id {
+                    display: none;
+                }
+                
+                .btn-usuario-view {
+                    background-color: transparent;
+                    border-radius: 7px;
+                    border: solid 2px #069cb4;
+                    color: white;
+                }
+                
+                .btn-usuario-view:hover {
+                    background-color: transparent;
+                    border-radius: 7px;
+                    border: solid 2px #069cb4;
+                    color: white;
+                }
+                /*TELA EDIT USUARIO*/
+                
+                .cds-input-cpf {
+                    background-color: #282832 !important;
+                }
+                /*Fim parte kauan*/
+                /* vsf kauan*/
+                /*PÁGINA HOME*/
+                
+                .container-total-home {
+                    margin-top: 12%;
+                }
+                
+                .home-esquerda {
+                    width: 270px;
+                    height: 300px;
+                    margin-top: 0px;
+                    display: inline-block;
+                }
+                
+                .home-h1 {
+                    font-size: 55px;
+                    font-family: Kayak Sans Bold;
+                    background: linear-gradient(to right, #00DCFF 20%, #FFFFFF 25%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+                
+                .home-h2 {
+                    font-size: 35px;
+                    font-family: Kayak Sans Bold;
+                    color: #FFFFFF;
+                    margin-top: 30px;
+                }
+                
+                .linha-home {
+                    width: 112px;
+                    height: 3px;
+                    background-color: #00DCFF;
+                    margin-top: 30px;
+                }
+                
+                .myButtonHome {
+                    width: 180px;
+                    background-color: transparent;
+                    border-radius: 3px;
+                    border: 3px solid #00ddff;
+                    display: inline-block;
+                    cursor: pointer;
+                    color: #00ddff;
+                    font-family: Kayak Sans Bold;
+                    font-size: 20px;
+                    padding: 6px 24px;
+                    text-decoration: none;
+                    margin-top: 30px;
+                }
+                
+                .myButtonHome:hover {
+                    background-color: transparent;
+                }
+                
+                .myButtonHome:active {
+                    position: relative;
+                    top: 1px;
+                }
+                
+                .home-meio {
+                    display: inline-block;
+                    margin-left: 5%;
+                }
+                
+                .home-logo {
+                    margin-top: -170px;
+                    width: 620px;
+                }
+                
+                .home-direita {
+                    width: 200px;
+                    height: 300px;
+                    display: inline-block;
+                    margin-top: 30px;
+                    margin-left: 5%;
+                }
+                
+                .home-h1-2 {
+                    font-size: 35px;
+                    font-family: Kayak Sans Bold;
+                    color: #FFFFFF;
+                }
+                
+                .home-button {
+                    margin-top: 30px;
+                    padding-left: 30%;
+                }
+                
+                .body2 {
+                    position: relative;
+                    width: 100%;
+                    height: 980px;
+                }
+                
+                .section2 {
+                    background-color: #4636B7;
+                }
+                
+                .home-esquerda-2 {
+                    display: inline-block;
+                }
+                
+                .img-home-2 {
+                    margin-top: -20%;
+                    width: 100%;
+                }
+                
+                .img-home-3 {
+                    display: none;
+                }
+                
+                .home-direita-2 {
+                    margin-left: 10%;
+                    margin-top: 15%;
+                    width: 350px;
+                    display: inline-block;
+                }
+                
+                .subtitulo-home {
+                    display: inline-block;
+                    font-size: 30px;
+                }
+                
+                .home-linha {
+                    margin-bottom: 10px;
+                    margin-left: 5%;
+                    display: inline-block;
+                    width: 60px;
+                    height: 3px;
+                    background-color: #FFFFFF;
+                }
+                
+                .home-button-2 {
+                    margin-top: 5%;
+                    width: 180px;
+                    background-color: #00DCFF;
+                    border-radius: 6px;
+                    border: 1px solid #00DCFF;
+                    display: inline-block;
+                    cursor: pointer;
+                    color: #151620;
+                    font-family: Arial;
+                    font-size: 15px;
+                    font-weight: bold;
+                    padding: 6px 24px;
+                    text-decoration: none;
+                }
+                
+                .home-button-2:hover {
+                    background-color: #237d94;
+                }
+                
+                .home-button-2:active {
+                    position: relative;
+                    top: 1px;
+                }
+                
+                .texto-home {
+                    margin-top: 10%;
+                }
+                
+                .home-titulo-2 {
+                    margin-top: 5%;
+                }
+                
+                .section3 {
+                    background: #010080;
+                }
+                
+                .testimonial-1 {
+                    width: 80%;
+                    -webkit-box-shadow: 21px 21px 2px 0px #0C0C4A;
+                    -moz-box-shadow: 21px 21px 2px 0px #0C0C4A;
+                    box-shadow: 21px 21px 2px 0px #0C0C4A;
+                    background: #fff;
+                    padding: 25px;
+                    color: #000
+                }
+                
+                .col-md-4 {
+                    margin-top: 25px
+                }
+                
+                .name {
+                    font-weight: 700;
+                    font-size: 14px;
+                    margin-bottom: -3px
+                }
+                
+                .place {
+                    font-size: 13px;
+                    color: #988c8c
+                }
+                
+                .place-2 {
+                    font-size: 13px;
+                    color: #ffffff
+                }
+                
+                .testimonial-2 {
+                    width: 80%;
+                    -webkit-box-shadow: 21px 21px 2px 0px #0C0C4A;
+                    -moz-box-shadow: 21px 21px 2px 0px #0C0C4A;
+                    box-shadow: 21px 21px 2px 0px #0C0C4A;
+                    background: #049AC1;
+                    padding: 25px;
+                    color: #fff
+                }
+                
+                .titulo-home-3 {
+                    margin-left: 21%;
+                    margin-top: 5%;
+                    padding-bottom: 2%;
+                }
+                
+                .linha-home-3 {
+                    border-radius: 50px;
+                    margin-left: 5%;
+                    margin-top: 40%;
+                    width: 200px;
+                    height: 4px;
+                    background-color: #FFFFFF;
+                }
+                
+                .linha2-home-3 {
+                    border-radius: 50px;
+                    margin-left: 5%;
+                    margin-top: 15%;
+                    width: 300px;
+                    height: 4px;
+                    background-color: #FFFFFF;
+                }
+                /* PÁGINA QUEM SOMOS*/
+                
+                .container-quem-somos {
+                    width: 350px;
+                    height: auto;
+                    background-color: #272830;
+                    border-radius: 2%;
+                    margin-top: 10%;
+                    display: inline-block;
+                    clear: both;
+                    margin-left: 3%;
+                }
+                
+                .quem-somos-imgs {
+                    width: 40%;
+                    height: auto;
+                    margin-left: 30%;
+                    padding-top: 10%;
+                    padding-bottom: 5%;
+                }
+                
+                .quem-somos-titulo {
+                    font-size: 25px;
+                    text-align: center;
+                    padding-top: 5%;
+                    padding-bottom: 3%;
+                    color: #FFFFFF;
+                }
+                
+                .quem-somos-subtitulo {
+                    font-size: 20px;
+                    text-align: center;
+                    padding-bottom: 3%;
+                    color: #E9E9E9;
+                }
+                
+                .quem-somos-texto {
+                    font-size: 18px;
+                    text-align: center;
+                    padding-top: 5%;
+                    padding-bottom: 3%;
+                    color: #E9E9E9;
+                    margin-left: 30px;
+                    margin-right: 30px;
+                }
+                
+                .quem-somos-icones {
+                    margin-left: 32.5%;
+                    margin-right: 32.5%;
+                    padding-bottom: 5%;
+                }
+                /* FONT FACES */
+                
+                @font-face {
+                    font-family: Kayak Sans Regular;
+                    src: url('/font/Kayak\ Sans\ Regular.otf')
+                }
+                
+                @font-face {
+                    font-family: Kayak Sans Bold;
+                    src: url('/font/Kayak\ Sans\ Bold.otf')
+                }
+                
+                @font-face {
+                    font-family: Kayak Sans Light;
+                    src: url('/font/Kayak\ Sans\ Light.otf')
+                }
+                
+                @font-face {
+                    font-family: Kayak Sans Regular;
+                    src: url('font/Kayak\ Sans\ Regular.otf')
+                }
+                
+                @font-face {
+                    font-family: Kayak Sans Bold;
+                    src: url('font/Kayak\ Sans\ Bold.otf')
+                }
+                
+                @font-face {
+                    font-family: Kayak Sans Light;
+                    src: url('font/Kayak\ Sans\ Light.otf')
+                }
+                /* MEDIA QUERIES*/
+                
+                @media(max-width: 1900px) {
+                    .home-logo {
+                        width: 88% !important;
+                    }
+                }
+                
+                @media (min-width: 1608px) {
+                    .home-logo {
+                        width: 750px;
+                    }
+                }
+                
+                @media (max-width: 1590px) {
+                    .home-direita {
+                        display: none;
+                    }
+                }
+                
+                @media (max-width: 1526px) {
+                    .img-home-2 {
+                        margin-top: 0;
+                        width: 100%;
+                        margin-top: -300px;
+                    }
+                    .home-esquerda-2 {
+                        width: 50%;
+                    }
+                    .body2 {
+                        height: 820px;
+                    }
+                }
+                
+                @media (min-width: 1440px) {
+                    .container-add-hora {
+                        width: 65%;
+                    }
+                    .home-logo {
+                        width: 600px;
+                    }
+                    .testimonial-2 {
+                        height: 324px;
+                    }
+                    .titulo-home-3 {
+                        margin-top: 10%;
+                    }
+                }
+                
+                @media(max-width:1366px) {
+                    .home-logo {
+                        width: 530px;
+                    }
+                }
+                
+                @media(max-width:1300px) {
+                    .cds-container-esquerda {
+                        display: inline-block;
+                        margin-left: 0px;
+                    }
+                    .cds-botao-cancelar {
+                        margin-left: 0px;
+                    }
+                    .cds-container-direita {
+                        margin-left: 0;
+                    }
+                }
+                
+                @media (max-width: 1024px) {
+                    .form-container {
+                        width: 50%;
+                    }
+                }
+                
+                @media (max-width: 1256px) {
+                    .home-logo {
+                        width: 694px;
+                        height: 784px;
+                        margin-top: 15%;
+                    }
+                    .home-meio {
+                        margin-left: 15% !important;
+                        margin-top: 0%;
+                    }
+                    .home-esquerda {
+                        width: 600px;
+                        margin-left: 25%;
+                    }
+                    .body2 {
+                        height: 700px;
+                    }
+                    .home-esquerda {
+                        margin-top: 10%;
+                    }
+                    .home-logo {
+                        display: none;
+                    }
+                }
+                
+                @media (max-width: 1255px) {
+                    .cds-all {
+                        margin-left: 15%;
+                        margin-right: 3%;
+                    }
+                }
+                
+                @media (max-width: 1200px) {
+                    .home-direita {
+                        display: none;
+                    }
+                }
+                
+                @media (max-width: 1200px) {
+                    .a-tela-list-usuario {
+                        padding-left: 65%;
+                    }
+                }
+                
+                @media (max-width: 1106px) {
+                    .cds-all {
+                        margin-left: 12%;
+                        margin-right: 3%;
+                    }
+                }
+                
+                @media (max-width: 1050px) {
+                    .cds-all {
+                        margin-left: 9%;
+                        margin-right: 3%;
+                    }
+                }
+                
+                @media (max-width: 1024px) {
+                    .body2 {
+                        height: auto;
+                    }
+                    .img-home-2 {
+                        width: 100%;
+                        display: block;
+                    }
+                    .home-logo {
+                        display: none;
+                        width: 610px;
+                        height: auto;
+                    }
+                    .home-esquerda {
+                        width: 600px;
+                        margin-left: 5%;
+                        margin-top: 1%!important;
+                    }
+                    .linha-home-3 {
+                        display: none;
+                    }
+                    .linha2-home-3 {
+                        display: none;
+                    }
+                    .testimonial-1 {
+                        width: 100%;
+                    }
+                    .testimonial-2 {
+                        width: 100%;
+                    }
+                }
+                
+                @media (max-width: 993px) {
+                    .form-container {
+                        width: 50%;
+                    }
+                }
+                
+                @media (max-width: 960px) {
+                    .a-tela-list-usuario {
+                        padding-left: 60%;
+                        height: 200px;
+                    }
+                }
+                
+                @media (max-width: 901px) {
+                    .home-logo {
+                        width: 694px;
+                        height: 784px;
+                        margin-top: 15%;
+                    }
+                    .home-meio {
+                        margin-left: 7% !important;
+                        margin-top: 0%;
+                    }
+                    .home-esquerda {
+                        width: 600px;
+                        margin-left: 7%;
+                    }
+                    .home-logo {
+                        width: 80%;
+                        height: 80%;
+                    }
+                    .home-direita {
+                        display: none;
+                    }
+                }
+                
+                @media (max-width: 899px) {
+                    .img-home-2 {
+                        display: none;
+                    }
+                    .body2 {
+                        height: 600px;
+                    }
+                    .home-direita-2 {
+                        width: 80%;
+                    }
+                }
+                
+                @media (max-width: 855px) {
+                    .cds-container-esquerda {
+                        display: block;
+                    }
+                    .cds-container-meio {
+                        display: block;
+                    }
+                    .cds-inputs {
+                        width: 100%;
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                        background: #272830;
+                        border: none !important;
+                        margin-left: 0;
+                    }
+                    .cds-inputs:hover {
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                        width: 100%;
+                        background: #272830;
+                        border: none !important;
+                        margin-left: 0;
+                    }
+                    .cds-all {
+                        margin-right: 15%;
+                    }
+                    .cds-container-base {
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                    .cds-botao-cancelar {
+                        width: 100%;
+                        display: inline-block;
+                        margin: 0px;
+                        margin-top: 30px;
+                        font-family: Kayak Sans Bold;
+                    }
+                    .cds-botao-salvar {
+                        width: 100%;
+                        display: inline-block;
+                        margin: 0px;
+                        margin-top: 30px;
+                        background-color: #04A7C1;
+                        font-family: Kayak Sans Bold;
+                        height: 35px;
+                    }
+                    .cds-botao-salvar:hover {
+                        width: 100%;
+                        margin: 0px;
+                        margin-top: 30px;
+                        height: 35px;
+                    }
+                    .cds-botoes {
+                        display: inline-block;
+                        width: 100%;
+                    }
+                }
+                
+                @media (max-width:800px) {
+                    .container-projetos {
+                        width: 99%;
+                    }
+                    .container-projeto {
+                        width: 97%;
+                    }
+                }
+                
+                @media (max-width: 768px) {
+                    .cds-container-base {
+                        width: 90%;
+                        margin-left: 7%;
+                    }
+                    .home-direita-2 {
+                        margin-top: 15%;
+                    }
+                    .home-logo {
+                        display: none;
+                        width: 380px;
+                        height: auto;
+                    }
+                    .home-esquerda {
+                        margin-top: 90px;
+                    }
+                    .container-add-hora {
+                        width: 60% !important;
+                        margin-left: 20%;
+                    }
+                    .container-containers-home {
+                        margin-top: 20px !important;
+                        padding-top: 0 !important;
+                    }
+                    .testimonial-1 {
+                        width: 100%;
+                        height: 100%;
+                        margin-top: 0px !important;
+                        padding-top: 0px !important;
+                    }
+                    .testimonial-2 {
+                        width: 100%;
+                        height: 100%;
+                        margin-top: 0px !important;
+                        padding-top: 0px !important;
+                    }
+                    .body3 {
+                        margin-top: 0px;
+                        padding-top: 0px;
+                    }
+                    .titulo-home-3 {
+                        margin-bottom: 5px;
+                        padding-bottom: 5px;
+                    }
+                }
+                
+                @media (max-width: 771px) {
+                    .form-container {
+                        width: 70%;
+                    }
+                }
+                
+                @media (max-width: 767px) {
+                    .a-tela-list-usuario {
+                        padding-left: 40%;
+                    }
+                }
+                
+                @media (max-width: 757px) {
+                    .titulo-home-3 {
+                        margin-top: 5%;
+                    }
+                }
+                
+                @media (max-width: 710px) {
+                    .a-tela-list-usuario {
+                        padding-left: 50%;
+                    }
+                }
+                
+                @media(max-width: 650px) {
+                    .home-esquerda {
+                        width: 70% !important;
+                    }
+                    .home-logo {
+                        width: 100%;
+                    }
+                    .home-meio {
+                        width: 70%;
+                    }
+                }
+                
+                @media(max-width: 600px) {
+                    .home-esquerda {
+                        width: 90% !important;
+                        margin-top: 30px;
+                        padding-left: 14%;
+                    }
+                    .home-esquerda {
+                        width: 100%;
+                        margin-left: 3%;
+                    }
+                    .home-logo {
+                        width: 70%;
+                        margin-left: 24%;
+                    }
+                    .home-meio {
+                        margin-left: 0%;
+                    }
+                }
+                
+                @media (max-width: 570px) {
+                    .home-logo {
+                        display: none;
+                    }
+                    .a-tela-list-usuario {
+                        padding-left: 35%;
+                    }
+                    .opcoes-tela-list-usuario {
+                        display: visible;
+                    }
+                    .nao-existe-tela-list-usuario {
+                        display: none;
+                    }
+                    .campo-login-tela-usuario-list-1 {
+                        display: none;
+                    }
+                    .campo-login-tela-usuario-list {
+                        display: initial;
+                    }
+                    .thead-tela-list-usuario {
+                        background-color: transparent;
+                    }
+                }
+                
+                @media (max-width: 550px) {
+                    .home-esquerda {
+                        margin-top: -30px;
+                        margin-left: 60px !important;
+                    }
+                    .form-container {
+                        width: 100%;
+                        max-width: 95%;
+                    }
+                    .container-total-home {
+                        width: 400px;
+                        margin-top: 35%;
+                        padding-left: 20px !important;
+                        margin-left: 20px !important;
+                    }
+                }
+                
+                @media (max-width: 500px) {
+                    .container-funcionarios {
+                        width: 300px;
+                    }
+                    .form-tabela {
+                        overflow-x: scroll;
+                    }
+                    .body2 {
+                        margin-top: 50px;
+                        height: 493px;
+                    }
+                }
+                
+                @media (max-width: 450px) {
+                    .a-tela-list-usuario {
+                        padding-left: 10%;
+                    }
+                    .dropdown-tela-list-usuario {
+                        display: initial;
+                        width: 10px;
+                    }
+                    .opcoes-tela-list-usuario {
+                        display: none;
+                    }
+                    .h4-tela-list-usuario {
+                        display: none;
+                    }
+                }
+                
+                @media(max-width:425) {
+                    .titulo-home-3 {
+                        width: 100%;
+                        margin: 0px!important;
+                        padding: 0px !important;
+                    }
+                    .titulo-home-3-2 {
+                        text-align: center;
+                    }
+                    .home-esquerda {
+                        padding-top: 0px !important;
+                        margin-top: 0px !important;
+                        margin-left: 10px !important;
+                        padding-left: 0px !important;
+                        padding: 0px !important;
+                    }
+                }
+                
+                @media (max-width: 414px) {
+                    .home-esquerda {
+                        padding-top: 50%;
+                        width: 250px;
+                        margin-left: 0px !important;
+                        padding-left: 0px !important
+                    }
+                    .container-total-home {
+                        width: 100%;
+                        margin: 0px !important;
+                        margin-left: 0px !important;
+                        padding-left: 0px !important;
+                    }
+                }
+                
+                @media (max-width: 400px) {
+                    .nao-existe-tela-list-usuario {
+                        display: none;
+                    }
+                    .campo-login-tela-usuario-list-1 {
+                        display: none;
+                    }
+                    .campo-login-tela-usuario-list {
+                        display: initial;
+                    }
+                    .thead-tela-list-usuario {
+                        background-color: transparent;
+                    }
+                }
+                
+                @media (max-width: 375px) {
+                    .home-h1 {
+                        margin-top: 5px !important;
+                        padding-top: 0px !important;
+                    }
+                    .home-esquerda {
+                        margin-top: 0% !important;
+                        padding-top: 60px !important;
+                    }
+                }
+                
+                @media (max-width: 320px) {
+                    .home-direita-2 {
+                        margin-top: 3%;
+                        padding-top: 3%;
+                    }
+                }
+                
+                @media (max-width: 376px) {
+                    .nao-existe-tela-list-usuario {
+                        display: none;
+                    }
+                    .campo-login-tela-usuario-list-1 {
+                        display: none;
+                    }
+                    .campo-login-tela-usuario-list {
+                        display: initial;
+                    }
+                    .thead-tela-list-usuario {
+                        background-color: transparent;
+                    }
+                }
+                
+                @media (max-width: 375px) {
+                    .home-esquerda {
+                        padding-top: 50%;
+                        width: 280px;
+                        margin-left: 10px !important;
+                        padding-left: 0px;
+                    }
+                    .container-total-home {
+                        width: 100%;
+                        margin: 0px !important;
+                        margin-left: 0px !important;
+                        padding-left: 0px !important;
+                    }
+                }
+                
+                @media(max-width:360px) {
+                    .cds-container-base {
+                        margin-left: 9.5%;
+                    }
+                }
+                
+                @media (max-width: 280px) {
+                    .cadastro-usuario-container-logo {
+                        padding-left: 60px;
+                    }
+                    .cds-inputs {
+                        width: 180px;
+                        margin-left: 0px;
+                        padding-left: 0px;
+                        padding: 0px;
+                        background: #272830;
+                        border: none !important;
+                    }
+                    .cds-container-base {
+                        margin-left: 10%;
+                    }
+                    .linha-home-3 {
+                        display: none;
+                    }
+                    .linha2-home-3 {
+                        display: none;
+                    }
+                    .testimonial-1 {
+                        width: 100%;
+                    }
+                    .testimonial-2 {
+                        width: 100%;
+                    }
+                    .home-esquerda {
+                        width: 100%;
+                        margin-left: 5px !important;
+                    }
+                    .form-container {
+                        width: 100%;
+                        max-width: 95%;
+                    }
+                    .container-total-home {
+                        width: 100%;
+                        margin-top: 35%;
+                        padding-left: 0px !important;
+                        margin-left: 0px !important;
+                    }
+                }

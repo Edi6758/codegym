@@ -1,0 +1,84 @@
+<!DOCTYPE html >
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Adicionar academia</title>
+    <link rel="icon" href="/img/icon2.png">
+
+    <!--CSS-->
+	<link rel="stylesheet" th:href="@{/bootstrap-4.5.2/css/bootstrap.min.css}">
+	<link rel="stylesheet" th:href="@{/fontawesome-5.14.0/css/all.min.css}">
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+
+</head>
+
+<body>
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand firsttitle" th:href="@{/}">co.gym</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item">
+                <a class="nav-link" th:href="@{/horario/list}">agenda</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" th:href="@{/usuario/list}">usuários</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"th:href="@{/quemsomos}">quem somos</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container-base">
+    <div class="container container-funcionario">
+        <div class="form-titulo">
+            <h4>Academia</h4>
+        </div>
+
+        <form th:action="@{/academia/save}" th:object="${academia}"
+              method="POST">
+            <div class="form-group">
+                <label>Código</label>
+                <input class="form-control" type="number"
+                       th:field="*{id}" readonly>
+            </div>
+
+
+            <div class="form-group">
+                <label>Nome da academia</label>
+                <input class="form-control" type="text" th:field="*{nome}" required>
+            </div>
+
+            <div class="form-group">
+                <label>cnpj</label>
+                <input class="form-control" type="text" th:field="*{cnpj}" required>
+            </div>
+
+            <div class="form-group">
+                <button class="btn btn-secondary btn-width" type="button"
+                        onclick="window.location.href='./list'">
+                    <i class="fa fa-ban" aria-hidden="true"></i> Cancelar
+                </button>
+                <button class="btn btn-success btn-width" type="submit">
+                    <i class="fa fa-save" aria-hidden="true"></i> Salvar
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!--JAVASCRIPT-->
+<script th:src="@{/js/jquery-3.5.1.min.js}"></script>
+<script th:src="@{/bootstrap-4.5.2/js/bootstrap.min.js}"></script>
+<script th:src="@{/js/script.js}"></script>
+
+</body>
+
+</html>
